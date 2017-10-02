@@ -15,6 +15,7 @@ namespace LangWCFTEST
             Session session = client.MakeSession(DateTime.Now,
                 new Student()
                 {
+
                     ForName = "sdf",
                     Id = 1,
                     Name = "dfd",
